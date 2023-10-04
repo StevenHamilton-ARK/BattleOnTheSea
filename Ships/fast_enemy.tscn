@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://vynuppt6ac1t"]
+
+[ext_resource type="PackedScene" uid="uid://dm8g7ppbalhel" path="res://Ships/enemy.tscn" id="1_mwywb"]
+[ext_resource type="Texture2D" uid="uid://cnc5bhcsxf00e" path="res://kenney_pirate-pack/PNG/Default size/Ships/ship (4).png" id="2_wsayj"]
+
+[node name="FastEnemy" instance=ExtResource("1_mwywb")]
+speed = 200
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_wsayj")
